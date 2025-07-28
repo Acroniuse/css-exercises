@@ -37,6 +37,12 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 a {
@@ -65,16 +71,14 @@ a {
 }
 
 .sidebar {
-  min-width: 300px;
   flex-shrink: 0;
-  padding: 16px 16px 16px 0px;
+  padding: 16px;
 }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
   padding: 48px;
-  justify-content: flex-start;
   gap: 16px;
 }
 
